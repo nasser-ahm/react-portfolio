@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer utilites {
+@keyframes marquee {
+    0% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+ @keyframes float {
+         
+          0%  { 
+            transform: translateY(0px)
+        }
+        
+          50% 
+          {
+             transform: translateY(-10px)
+            }
+          
+          100% 
+           { transform: translateY(0px) }
+           
+        
+}
+
+
+.animate-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+
+.animate-marquee {
+    animation: marquee 30s linear infinite;
+}
+}
