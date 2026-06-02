@@ -1,25 +1,27 @@
 import Container from "./components/container";
 import { ArrowUpRight } from "lucide-react";
-
+import ecommerceImg from "./assets/e-com-website.png";
+import dashboardImg from "./assets/dash.png";
+import coffeeImg from "./assets/coffe-landing-page.png";
 const projects = [{
   name: "e-com-website",
   description:"Developed a responsive e-commerce website using HTML, CSS, and JavaScript. The website features product listings, category filtering, a shopping cart system, and an intuitive user interface designed to provide a smooth shopping experience across all devices.",
   Github: "https://nasser-ahm.github.io/ecom-website/",  
-  img: './src/assets/e-com-website.png',
+  img: ecommerceImg,
   tags: ["HTML", "CSS", "Java script"]
 },
 {
   name: "Dashboard",
   description:"Responsive dashboard built with HTML, CSS, and JavaScript, featuring analytics cards, interactive charts, and a modern user interface.",
   Github: "https://nasser-ahm.github.io/dashboard1/",  
-  img: './src/assets/dash.png',
+  img: dashboardImg,
   tags: ["HTML", "CSS", "Java script"]
 },
 {
   name: "Coffee Landing Page",
   description:"Designed and developed a modern coffee shop landing page using HTML, CSS, and JavaScript. The website features a responsive design, interactive user interface, smooth scrolling, and visually appealing sections to showcase products, services, and brand identity.",
   Github: "https://nasser-ahm.github.io/caffee-landing-page/",  
-  img: './src/assets/coffe-landing-page.png',
+  img: coffeeImg,
   tags: ["HTML", "CSS", "Java script"]
 }
 ];
